@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>:: Login by ChatGPT ::</title> 
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+  
+  
+  <body>
+    <div class="container">
+      <form>
+        <h2>Tela de Login</h2>
+        <div class="input-container">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-container">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="lembrar" name="lembrar">
+          <label for="lembrar">Lembrar senha</label>
+        </div>
+        <button type="submit" class="btn">Entrar</button>
+        <button type="button" class="btn" onclick="window.location.href='cadastro.html'">Cadastrar</button>
+      </form>
+    </div>
+    
+    <script src="session.js"></script>
+  </body>
+</html>

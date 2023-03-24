@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="dashboard.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Bem-vindo ao dashboard</h1>
+  <p>Email: <span id="email"></span></p>
+  <p>Data: <span id="data"></span></p>
+  <p>Hora: <span id="hora"></span></p>
+  <p>IP: <span></span></p>
+  <p><button onclick="findUserByEmail(localStorage.getItem('email'))">Procurar Usuário</button></p>
+  <p><a href="index.html">Voltar à tela de Login</a></p>
+
+
+
+  <script src="dashboard.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>
+
